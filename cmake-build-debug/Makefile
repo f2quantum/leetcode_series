@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series"
+CMAKE_SOURCE_DIR = C:\Workspace\leetcode_series
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Workspace\leetcode_series\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles C:\Workspace\leetcode_series\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,53 +141,29 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-_leetcode/136.obj: _leetcode/136.cpp.obj
-.PHONY : _leetcode/136.obj
+_leetcode/592.obj: _leetcode/592.cpp.obj
+.PHONY : _leetcode/592.obj
 
 # target to build an object file
-_leetcode/136.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj
-.PHONY : _leetcode/136.cpp.obj
+_leetcode/592.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj
+.PHONY : _leetcode/592.cpp.obj
 
-_leetcode/136.i: _leetcode/136.cpp.i
-.PHONY : _leetcode/136.i
-
-# target to preprocess a source file
-_leetcode/136.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/136.cpp.i
-.PHONY : _leetcode/136.cpp.i
-
-_leetcode/136.s: _leetcode/136.cpp.s
-.PHONY : _leetcode/136.s
-
-# target to generate assembly for a file
-_leetcode/136.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/136.cpp.s
-.PHONY : _leetcode/136.cpp.s
-
-_leetcode/74.obj: _leetcode/74.cpp.obj
-.PHONY : _leetcode/74.obj
-
-# target to build an object file
-_leetcode/74.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj
-.PHONY : _leetcode/74.cpp.obj
-
-_leetcode/74.i: _leetcode/74.cpp.i
-.PHONY : _leetcode/74.i
+_leetcode/592.i: _leetcode/592.cpp.i
+.PHONY : _leetcode/592.i
 
 # target to preprocess a source file
-_leetcode/74.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/74.cpp.i
-.PHONY : _leetcode/74.cpp.i
+_leetcode/592.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/592.cpp.i
+.PHONY : _leetcode/592.cpp.i
 
-_leetcode/74.s: _leetcode/74.cpp.s
-.PHONY : _leetcode/74.s
+_leetcode/592.s: _leetcode/592.cpp.s
+.PHONY : _leetcode/592.s
 
 # target to generate assembly for a file
-_leetcode/74.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/74.cpp.s
-.PHONY : _leetcode/74.cpp.s
+_leetcode/592.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/_leetcode/592.cpp.s
+.PHONY : _leetcode/592.cpp.s
 
 lib/dataStruct.obj: lib/dataStruct.cpp.obj
 .PHONY : lib/dataStruct.obj
@@ -247,12 +223,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... leetcode
 	@echo ... main
-	@echo ... _leetcode/136.obj
-	@echo ... _leetcode/136.i
-	@echo ... _leetcode/136.s
-	@echo ... _leetcode/74.obj
-	@echo ... _leetcode/74.i
-	@echo ... _leetcode/74.s
+	@echo ... _leetcode/592.obj
+	@echo ... _leetcode/592.i
+	@echo ... _leetcode/592.s
 	@echo ... lib/dataStruct.obj
 	@echo ... lib/dataStruct.i
 	@echo ... lib/dataStruct.s

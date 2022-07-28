@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Fzquantum/OneDrive - xrer/WorkspaceOneDrive/leetcode_series/lib/dataStruct.cpp" "CMakeFiles/main.dir/lib/dataStruct.cpp.obj" "gcc" "CMakeFiles/main.dir/lib/dataStruct.cpp.obj.d"
-  "C:/Users/Fzquantum/OneDrive - xrer/WorkspaceOneDrive/leetcode_series/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
+  "C:/Workspace/leetcode_series/lib/dataStruct.cpp" "CMakeFiles/main.dir/lib/dataStruct.cpp.obj" "gcc" "CMakeFiles/main.dir/lib/dataStruct.cpp.obj.d"
+  "C:/Workspace/leetcode_series/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

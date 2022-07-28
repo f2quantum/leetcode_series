@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj"
-  "CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj.d"
-  "CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj"
-  "CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj.d"
+  "CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj"
+  "CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj.d"
   "leetcode.exe"
   "leetcode.exe.manifest"
   "leetcode.pdb"

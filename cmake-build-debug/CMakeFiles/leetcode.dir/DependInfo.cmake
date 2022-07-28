@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Fzquantum/OneDrive - xrer/WorkspaceOneDrive/leetcode_series/_leetcode/136.cpp" "CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj.d"
-  "C:/Users/Fzquantum/OneDrive - xrer/WorkspaceOneDrive/leetcode_series/_leetcode/74.cpp" "CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj.d"
+  "C:/Workspace/leetcode_series/_leetcode/592.cpp" "CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj" "gcc" "CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj.d"
   )
 
 # Targets to which this target links.

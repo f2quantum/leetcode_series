@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series"
+CMAKE_SOURCE_DIR = C:\Workspace\leetcode_series
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Workspace\leetcode_series\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -71,30 +71,30 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c C:\Workspace\leetcode_series\main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\main.cpp" > CMakeFiles\main.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Workspace\leetcode_series\main.cpp > CMakeFiles\main.dir\main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\main.cpp" -o CMakeFiles\main.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Workspace\leetcode_series\main.cpp -o CMakeFiles\main.dir\main.cpp.s
 
 CMakeFiles/main.dir/lib/dataStruct.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/lib/dataStruct.cpp.obj: ../lib/dataStruct.cpp
 CMakeFiles/main.dir/lib/dataStruct.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/lib/dataStruct.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/dataStruct.cpp.obj -MF CMakeFiles\main.dir\lib\dataStruct.cpp.obj.d -o CMakeFiles\main.dir\lib\dataStruct.cpp.obj -c "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\lib\dataStruct.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/lib/dataStruct.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/dataStruct.cpp.obj -MF CMakeFiles\main.dir\lib\dataStruct.cpp.obj.d -o CMakeFiles\main.dir\lib\dataStruct.cpp.obj -c C:\Workspace\leetcode_series\lib\dataStruct.cpp
 
 CMakeFiles/main.dir/lib/dataStruct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/dataStruct.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\lib\dataStruct.cpp" > CMakeFiles\main.dir\lib\dataStruct.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Workspace\leetcode_series\lib\dataStruct.cpp > CMakeFiles\main.dir\lib\dataStruct.cpp.i
 
 CMakeFiles/main.dir/lib/dataStruct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/dataStruct.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\lib\dataStruct.cpp" -o CMakeFiles\main.dir\lib\dataStruct.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Workspace\leetcode_series\lib\dataStruct.cpp -o CMakeFiles\main.dir\lib\dataStruct.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -110,7 +110,7 @@ main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles\main.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Workspace\leetcode_series C:\Workspace\leetcode_series C:\Workspace\leetcode_series\cmake-build-debug C:\Workspace\leetcode_series\cmake-build-debug C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles\main.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

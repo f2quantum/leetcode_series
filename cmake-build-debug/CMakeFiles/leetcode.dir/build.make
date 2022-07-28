@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series"
+CMAKE_SOURCE_DIR = C:\Workspace\leetcode_series
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Workspace\leetcode_series\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/leetcode.dir/depend.make
@@ -68,49 +68,33 @@ include CMakeFiles/leetcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode.dir/flags.make
 
-CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj: ../_leetcode/74.cpp
-CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj -MF CMakeFiles\leetcode.dir\_leetcode\74.cpp.obj.d -o CMakeFiles\leetcode.dir\_leetcode\74.cpp.obj -c "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\_leetcode\74.cpp"
+CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj: ../_leetcode/592.cpp
+CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj -MF CMakeFiles\leetcode.dir\_leetcode\592.cpp.obj.d -o CMakeFiles\leetcode.dir\_leetcode\592.cpp.obj -c C:\Workspace\leetcode_series\_leetcode\592.cpp
 
-CMakeFiles/leetcode.dir/_leetcode/74.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/_leetcode/74.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\_leetcode\74.cpp" > CMakeFiles\leetcode.dir\_leetcode\74.cpp.i
+CMakeFiles/leetcode.dir/_leetcode/592.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/_leetcode/592.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Workspace\leetcode_series\_leetcode\592.cpp > CMakeFiles\leetcode.dir\_leetcode\592.cpp.i
 
-CMakeFiles/leetcode.dir/_leetcode/74.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/_leetcode/74.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\_leetcode\74.cpp" -o CMakeFiles\leetcode.dir\_leetcode\74.cpp.s
-
-CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj: ../_leetcode/136.cpp
-CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj -MF CMakeFiles\leetcode.dir\_leetcode\136.cpp.obj.d -o CMakeFiles\leetcode.dir\_leetcode\136.cpp.obj -c "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\_leetcode\136.cpp"
-
-CMakeFiles/leetcode.dir/_leetcode/136.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/_leetcode/136.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\_leetcode\136.cpp" > CMakeFiles\leetcode.dir\_leetcode\136.cpp.i
-
-CMakeFiles/leetcode.dir/_leetcode/136.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/_leetcode/136.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\_leetcode\136.cpp" -o CMakeFiles\leetcode.dir\_leetcode\136.cpp.s
+CMakeFiles/leetcode.dir/_leetcode/592.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/_leetcode/592.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Workspace\leetcode_series\_leetcode\592.cpp -o CMakeFiles\leetcode.dir\_leetcode\592.cpp.s
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
-"CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj" \
-"CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj"
+"CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
 
-leetcode.exe: CMakeFiles/leetcode.dir/_leetcode/74.cpp.obj
-leetcode.exe: CMakeFiles/leetcode.dir/_leetcode/136.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/_leetcode/592.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/build.make
 leetcode.exe: CMakeFiles/leetcode.dir/linklibs.rsp
 leetcode.exe: CMakeFiles/leetcode.dir/objects1.rsp
 leetcode.exe: CMakeFiles/leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable leetcode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\leetcode.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +106,6 @@ CMakeFiles/leetcode.dir/clean:
 .PHONY : CMakeFiles/leetcode.dir/clean
 
 CMakeFiles/leetcode.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug" "C:\Users\Fzquantum\OneDrive - xrer\WorkspaceOneDrive\leetcode_series\cmake-build-debug\CMakeFiles\leetcode.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Workspace\leetcode_series C:\Workspace\leetcode_series C:\Workspace\leetcode_series\cmake-build-debug C:\Workspace\leetcode_series\cmake-build-debug C:\Workspace\leetcode_series\cmake-build-debug\CMakeFiles\leetcode.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/leetcode.dir/depend
 
